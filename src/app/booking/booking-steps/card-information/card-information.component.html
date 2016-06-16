@@ -1,0 +1,7 @@
+<form name="creditCardForm">
+  <input type="text" name="cardNo" [(ngModel)]="cardNo" />
+  <input type="number" name="expiryMonth" [(ngModel)]="expiryMonth" />
+  <input type="number" name="expiryYear" [(ngModel)]="expiryYear" />
+  <input type="number" name="cvv" [(ngModel)]="cvv" />
+  <input type="button" (click)="createToken()" />
+</form>
